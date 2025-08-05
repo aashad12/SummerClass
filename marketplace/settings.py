@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-t_s)%vn7v-*fymonfc^i*a7wheds!4c40^#+bc&9-j$8%jk+=g
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'summerclass-crjx.onrender.com',
+    'summerclass-m6h0.onrender.com',
     '127.0.0.1',
     'localhost',
 ]
@@ -149,4 +149,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT =BASE_DIR/'media' 
 
-CSRF_TRUSTED_ORIGINS = []
+CSRF_TRUSTED_ORIGINS = ['https://summerclass-m6h0.onrender.com',
+]

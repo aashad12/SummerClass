@@ -4,9 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
 pillow = "*"
 django-jazzmin = "*"
+psycopg-binary = "*"
+django = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
+python-decouple = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 ipykernel = "*"
