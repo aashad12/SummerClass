@@ -4,8 +4,8 @@ from .models import Category, Product
 # Create your views here.
 def index(request):
     all_products = Product.objects.all()
-    return render(request, 'products/products1.html',{'products': all_products}) 
+    return render(request, 'products/products.html',{'products': all_products}) 
 
 def product_detail(request, id):
     product = get_object_or_404(Product, id=id)
-    return render(request,'products/details1.html', {'product': product})
+    return render(request,'products/details.html', {'product': product})
